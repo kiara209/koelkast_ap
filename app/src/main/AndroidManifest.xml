@@ -13,12 +13,17 @@
         android:theme="@style/Theme.KoelkastAp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity3"
+            android:name=".Boodschappenlijst"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Recpeten"
             android:exported="false" />
-
+        <activity
+            android:name=".hoofd_koelkast"
+            android:exported="false" />
+        <activity
+            android:name=".account_aanmaken"
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="true">
