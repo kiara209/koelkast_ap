@@ -8,6 +8,26 @@
     tools:context=".hoofd_koelkast">
 
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <ImageButton
+            android:id="@+id/imageButtonKoelkastje"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:contentDescription="imageButtonKoelkastje"
+            android:cropToPadding="false"
+            android:scaleX="2.5"
+            android:scaleY="2.5"
+            app:srcCompat="@drawable/ic_action_koelkastje"
+            tools:srcCompat="@drawable/ic_action_koelkastje" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
     <TextView
         android:id="@+id/a_koelkastview_titel"
         android:layout_width="262dp"
