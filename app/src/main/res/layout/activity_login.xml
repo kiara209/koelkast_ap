@@ -52,7 +52,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/wachtwoord"
+                android:id="@+id/Wachtwoord"
                 android:background="@drawable/custum_text"
                 android:drawableLeft="@drawable/baseline_block_24"
                 android:drawablePadding="8dp"
@@ -66,7 +66,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:id="@+id/loginbutton"
+                android:id="@+id/Loginbutton"
                 android:text="Login"
                 android:textSize="18dp"
                 android:layout_marginTop="30dp"

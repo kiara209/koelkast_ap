@@ -1,6 +1,8 @@
 package com.example.koelkastap;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +12,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Recepten extends AppCompatActivity {
 // SPELFOUT IN TITEL VAN DIT DOCUMENT, MAAR IDK OF JE DIE NAAM KAN VERANDEREN
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
