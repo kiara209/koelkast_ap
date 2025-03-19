@@ -1,6 +1,8 @@
 package com.example.koelkastap;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,8 @@ import android.content.Intent;
 import android.view.View;
 
 public class hoofd_koelkast extends AppCompatActivity {
+
+
 
     public Button button }
 
