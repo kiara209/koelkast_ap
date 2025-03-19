@@ -12,8 +12,6 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 public class Recepten extends AppCompatActivity {
-// SPELFOUT IN TITEL VAN DIT DOCUMENT, MAAR IDK OF JE DIE NAAM KAN VERANDEREN
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +24,19 @@ public class Recepten extends AppCompatActivity {
             return insets;
         });
 
-        findViewById<BottomNavigationView>(R.id.bottom_nav_bar).setOnItemSelectedListener { item ->
+        replaceFragment()
+
+        findViewById<BottomNavigationView>(R.id.bottom_nav_bar).setOnItemSelectedListener {
+            item ->
 
             return@setOnItemSelectedListener true
         }
+
+    }
+
+    private fun replaceFragment(fragment: Fragment) {
+        val fragmentTransition = getSupportFragmentManager().beginTransaction()
+                fragmentTransition.replace(R.id.frame_layout, fragment)
+                        fragmentTransaction.commit()
     }
 }

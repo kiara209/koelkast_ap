@@ -9,27 +9,31 @@
     tools:context=".Recepten">
 
 
-
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav_bar"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bottom_nav_bar" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav_bar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/warmtinted"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:menu="@menu/bottom_nav_bar" />
+        app:menu="@menu/bottom_nav_bar"
+        app:itemIconTint="@color/bottom_navigation_selector"/>
+
 
     <TextView
         android:id="@+id/a_recepten_titel"
         android:layout_width="262dp"
         android:layout_height="105dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="45dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/a_recepten_titel"
         android:textAlignment="center"

@@ -7,4 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".Boodschappenlijst">
 
+    <TextView
+        android:id="@+id/a_boodschappenlijst_titel"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-black"
+        android:text="boodschappenlijstje"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
