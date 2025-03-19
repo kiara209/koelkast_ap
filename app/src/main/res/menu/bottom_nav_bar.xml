@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/koelkast"
+        android:title="Koelkast"
+        android:icon="@drawable/ic_action_koelkastje" />
+
+    <item
+        android:id="@+id/recepten"
+        android:title="Recepten"
+        android:icon="@drawable/ic_action_receptjes" />
+    <item
+        android:id="@+id/boodschappenlijstje"
+        android:title="Lijstje"
+        android:icon="@drawable/baseline_account_circle_24" />
+</menu>

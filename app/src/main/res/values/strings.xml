@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">koelkast app</string>
     <string name="a_koelkastview_titel">Mijn koelkast</string>
+    <string name="a_recepten_titel">Recepten</string>
 </resources>

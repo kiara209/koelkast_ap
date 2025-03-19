@@ -56,5 +56,15 @@
         tools:layout_editor_absoluteX="317dp"
         tools:layout_editor_absoluteY="550dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/ic_action_addbox01"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="261dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
