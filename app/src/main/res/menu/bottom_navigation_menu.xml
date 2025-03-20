@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_koelkast"
+        android:icon="@drawable/ic_kitchen"
+        android:title="Koelkast" />
+    <item
+        android:id="@+id/nav_recepten"
+        android:icon="@drawable/ic_restaurant_menu"
+        android:title="Recepten" />
+    <item
+        android:id="@+id/nav_boodschappen"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Boodschappen" />
+</menu> 
